@@ -1,0 +1,29 @@
+{
+  "name": "scraper-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dukebot/scraper-template.git"
+  },
+  "author": "daniel ferrer gallegos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dukebot/scraper-template/issues"
+  },
+  "homepage": "https://github.com/Dukebot/scraper-template#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "puppeteer": "^19.4.1",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.4",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
